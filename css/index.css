@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-display {
+  display: flex;
+}
+
+body {
+  width: 100%;
+  height: 70vh;
+  background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg")
+    50% 100% no-repeat;
+}
+
+nav {
+  margin-top: 4rem;
+}
+
+nav button {
+  width: 7rem;
+  height: 2rem;
+  border-radius: none;
+  color: #fff;
+  /* border: 0.1rem solid black; */
+  background-color: rgb(80, 78, 78);
+}
+main {
+  height: 70vh;
+}
+main div h1,
+p {
+  color: white;
+}
+main nav div {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(80, 78, 78);
+}
+nav input {
+  margin: 0.3rem 1rem;
+  width: rem;
+  border: rgb(80, 78, 78);
+  border-radius: 0.4rem;
+}
+.center {
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.grid {
+  width: 100%;
+  height: 30vh;
+}
+
+.grid-display {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid > div img {
+  width: 100%;
+  height: 12rem;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.item4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
