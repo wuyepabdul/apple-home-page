@@ -86,3 +86,6 @@ nav input {
   grid-column-start: 4;
   grid-column-end: 5;
 }
+footer p {
+  color: black;
+}
